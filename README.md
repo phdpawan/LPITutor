@@ -3,10 +3,10 @@
 **Steps for Execution**
 
 1) Set Up the Vector Database:
-
+  
   a) Create an index named "intelligent_tutor" on Pinecone (or your chosen vector database) before running the script.
 
-3) Phase 1: Document Processing:
+4) Phase 1: Document Processing:
 
    a) Place your PDF files in the ./pdf_files directory.
 
