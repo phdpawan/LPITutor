@@ -1,23 +1,23 @@
 # LPITutor
 
 **Steps for Execution**
-Set Up the Vector Database:
 
-Create an index named "intelligent_tutor" on Pinecone (or your chosen vector database) before running the script.
-Phase 1: Document Processing:
+1) Set Up the Vector Database:
+  a) Create an index named "intelligent_tutor" on Pinecone (or your chosen vector database) before running the script.
 
-Place your PDF files in the ./pdf_files directory.
-Run document_processing.py to process the PDFs, generate embeddings, and upload them to the vector database.
-User Input:
+2) Phase 1: Document Processing:
+   a) Place your PDF files in the ./pdf_files directory.
+   b) Run document_processing.py to process the PDFs, generate embeddings, and upload them to the vector database.
 
-Run main.py.
-Enter your question when prompted.
-Specify the level (beginner, intermediate, or expert) as per your requirement.
-Phase 2: Query Processing:
+3) User Input:
+  a) Run main.py.
+  b) Enter your question.
+  c) Specify the level (beginner, intermediate, or expert) as per your requirement.
 
-The query will be preprocessed, and an embedding will be generated for similarity matching in the vector database.
-Phase 3: Response Generation:
+4) Phase 2: Query Processing:
+  a) The query will be preprocessed, and an embedding will be generated for similarity matching.
 
-The system will fetch the most relevant responses from the vector database.
-The selected context and user-specified level will be sent to the GPT model for a detailed answer.
-The response will be displayed on the console.
+5) Phase 3: Response Generation:
+  a) The system will fetch the most relevant responses.
+  b) The selected context and user-specified level will be sent to the GPT model for a detailed answer.
+  c) The response will be displayed on the console.
