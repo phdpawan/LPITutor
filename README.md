@@ -12,22 +12,22 @@
 
    b) Run document_processing.py to process the PDFs, generate embeddings, and upload them to the vector database.
 
-5) User Input:
+3) User Input:
 
-  a) Run main.py.
+   a) Run main.py.
   
-  b) Enter your question.
+   b) Enter your question.
   
-  c) Specify the level (beginner, intermediate, or expert) as per your requirement.
+   c) Specify the level (beginner, intermediate, or expert) as per your requirement.
 
-7) Phase 2: Query Processing:
+4) Phase 2: Query Processing:
 
-  a) The query will be preprocessed, and an embedding will be generated for similarity matching.
+   a) The query will be preprocessed, and an embedding will be generated for similarity matching.
 
-9) Phase 3: Response Generation:
+5) Phase 3: Response Generation:
 
-  a) The system will fetch the most relevant responses.
+   a) The system will fetch the most relevant responses.
   
-  b) The selected context and user-specified level will be sent to the GPT model for a detailed answer.
+   b) The selected context and user-specified level will be sent to the GPT model for a detailed answer.
   
-  c) The response will be displayed on the console.
+   c) The response will be displayed on the console.
