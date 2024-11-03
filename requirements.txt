@@ -1,0 +1,5 @@
+pip install pdfplumber
+pip install sentence-transformers
+pip install pinecone-client
+pip install nltk
+pip install openai
