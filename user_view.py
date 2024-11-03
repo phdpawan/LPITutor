@@ -18,7 +18,7 @@ class QueryProcessor:
 
 if __name__ == "__main__":
     query_processor = QueryProcessor()
-    user_query = "How does machine learning work for beginners?"
+    user_query = "How does machine learning work?"
     level = "beginner"
     processed_query = query_processor.process_query(user_query, level)
     print(processed_query)
