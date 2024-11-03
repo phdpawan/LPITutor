@@ -8,7 +8,7 @@ class DocumentProcessor:
         self.pdf_dir = pdf_dir
         self.model = SentenceTransformer(model_name)
         pinecone.init(api_key=vector_db_api_key, environment='us-west1-gcp')
-        self.index = pinecone.Index("intelligent_tutor")  # assuming index is already created
+        self.index = pinecone.Index("intelligent_tutor")  
 
     def read_pdf(self, pdf_file):
         text_content = ""
@@ -18,7 +18,7 @@ class DocumentProcessor:
         return text_content
 
     def generate_embeddings(self, text):
-        sentences = text.split('\n')  # split text into sentences or paragraphs
+        sentences = text.split('\n')  
         embeddings = self.model.encode(sentences)
         return sentences, embeddings
 
