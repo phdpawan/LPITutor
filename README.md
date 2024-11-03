@@ -3,8 +3,8 @@
 **Steps for Execution**
 
 1) Set Up the Vector Database:
-  
-  a) Create an index named "intelligent_tutor" on Pinecone (or your chosen vector database) before running the script.
+
+     a) Create an index named "intelligent_tutor" on Pinecone (or your chosen vector database) before running the script.
 
 4) Phase 1: Document Processing:
 
