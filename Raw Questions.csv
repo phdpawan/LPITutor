@@ -1,0 +1,21 @@
+S.No.,Question
+1,Define machine learning and explain Arthur Samuel's definition with examples.
+2,Discuss the basic components of the learning process in machine learning.
+3,"Differentiate between supervised, unsupervised, and reinforcement learning with examples."
+4,"What is feature selection, and why is it important in machine learning?"
+5,"Explain the differences between filter, wrapper, and embedded methods of feature selection."
+6,What are the advantages and disadvantages of dimensionality reduction?
+7,Explain Principal Component Analysis (PCA) with its computational steps.
+8,Explain the cost function and its role in regression models.
+9,What is gradient descent? Describe its different types.
+10,"Compare Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Square Error (RMSE) as evaluation metrics."
+11,Explain the biological inspiration behind artificial neural networks.
+12,"Describe the architecture of a basic artificial neural network, including its layers."
+13,"What are Convolutional Neural Networks (CNNs), and how do they differ from traditional neural networks?"
+14,Explain the concept of recurrent neural networks (RNNs) and their key applications.
+15,"Compare and contrast the holdout method, K-fold, and stratified K-fold cross-validation techniques."
+16,Define the bias-variance tradeoff and its importance in machine learning.
+17,"What is overfitting in machine learning, and how can it be avoided?"
+18,Explain the concept of bagging and boosting in ensemble methods.
+19,Discuss the K-means clustering algorithm and its applications.
+20,Explain the Q-learning algorithm with its key concepts and practical use cases.

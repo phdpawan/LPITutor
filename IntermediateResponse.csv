@@ -1,0 +1,50 @@
+S.No.,Question,Answer
+1,Define machine learning and explain Arthur Samuel's definition with examples.,"Machine learning is the process where computers improve their performance on tasks using data without explicit programming. Arthur Samuel defined it as ?the field of study that gives computers the ability to learn without being explicitly programmed.? Examples include:
+Recognizing handwritten characters from labeled images.
+Driving a car autonomously by learning from sensor data and driving patterns."
+2,Discuss the basic components of the learning process in machine learning,"The learning process involves:
+Data Storage: Retaining data for training and testing.
+Abstraction: Extracting knowledge from raw data through summarization.
+Generalization: Applying learned patterns to unseen data.
+Evaluation: Quantifying the model?s performance using metrics like accuracy or loss."
+3,"Differentiate between supervised, unsupervised, and reinforcement learning with examples","Supervised: Uses labeled data for prediction. Example: Email spam classification.
+Unsupervised: Finds hidden patterns in unlabeled data. Example: Grouping customers by purchasing behavior.
+Reinforcement: Learns optimal actions through rewards and penalties. Example: Game-playing AI like AlphaGo."
+4,"What is feature selection, and why is it important in machine learning?","Feature selection involves selecting the most important variables for training. It improves model interpretability, reduces computation, and minimizes overfitting."
+5,"Explain the differences between filter, wrapper, and embedded methods of feature selection.","Filter: Uses statistical measures like chi-square or information gain to rank features.
+Wrapper: Evaluates feature subsets through a search strategy, such as forward selection.
+Embedded: Integrates feature selection into the model training process, like Lasso regression."
+6,What are the advantages and disadvantages of dimensionality reduction?,"Advantages: Speeds up computation, improves model performance, and helps in visualization.
+Disadvantages: Can result in information loss and reduced interpretability of reduced features."
+7,Explain Principal Component Analysis (PCA) with its computational steps.,"PCA reduces dimensions by identifying principal components that capture the most variance in data.
+Steps:
+Center the data by subtracting the mean.
+Compute the covariance matrix.
+Calculate eigenvalues and eigenvectors.
+Project data onto the principal components."
+8,Explain the cost function and its role in regression models.,"The cost function, such as Mean Squared Error (MSE), quantifies the error between predicted and actual values. Minimizing the cost function improves model performance."
+9,What is gradient descent? Describe its different types.,"Gradient descent minimizes the cost function by iteratively updating parameters. Types:
+Batch Gradient Descent: Uses the entire dataset in each iteration.
+Stochastic Gradient Descent: Updates parameters after each data point.
+Mini-Batch Gradient Descent: Combines features of both, using small batches."
+10,"Compare Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Square Error (RMSE).","MAE: Measures average absolute error, less sensitive to outliers.
+MSE: Penalizes larger errors due to squaring.
+RMSE: Square root of MSE, making units consistent with the original data."
+11,Explain the biological inspiration behind artificial neural networks.,"Neural networks are inspired by the human brain, where neurons are interconnected and process information. Similarly, artificial neurons in networks process data using weights and activation functions."
+12,"Describe the architecture of a basic artificial neural network, including its layers.","Input Layer: Takes input features.
+Hidden Layers: Perform intermediate computations.
+Output Layer: Produces final predictions."
+13,What are Convolutional Neural Networks (CNNs)?,CNNs specialize in image data by using convolutional layers to detect features like edges and pooling layers to reduce dimensionality.
+14,Explain the concept of recurrent neural networks (RNNs).,"RNNs handle sequential data by maintaining hidden states that capture dependencies between inputs, useful for tasks like language modeling and time series prediction."
+15,"Compare the holdout method, K-fold, and stratified K-fold cross-validation.","Holdout: Splits data into training and testing sets.
+K-Fold: Divides data into KKK parts, rotating the test set.
+Stratified K-Fold: Ensures class proportions are maintained in each fold."
+16,Define the bias-variance tradeoff and its importance in machine learning.,"Bias: Error due to simplifying assumptions in the model.
+Variance: Error due to sensitivity to data variations.
+A balance ensures good generalization."
+17,"What is overfitting, and how can it be avoided?","Overfitting occurs when the model memorizes training data. Solutions include regularization, cross-validation, and simplifying the model."
+18,Explain the concept of bagging and boosting.,"Bagging: Combines multiple models trained on different subsets to reduce variance. Example: Random Forest.
+Boosting: Sequentially improves weak learners by focusing on errors. Example: AdaBoost."
+19,Discuss the K-means clustering algorithm and its applications.,"K-means groups data into Kclusters by minimizing intra-cluster distances. Applications: Customer segmentation, Image compression."
+20,Explain the Q-learning algorithm with its key concepts.,"Q-learning is a reinforcement learning method where an agent learns an optimal policy by updating Q-values, which estimate the expected rewards for actions in given states."
+,,

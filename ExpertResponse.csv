@@ -1,0 +1,47 @@
+S.No.,Question,Answer
+1,Define machine learning and explain Arthur Samuel's definition with examples.,"Machine learning enables computers to generalize patterns from data without explicit instructions. Arthur Samuel's definition emphasizes automation in learning tasks. Example: For handwriting recognition, models optimize parameters (e.g., weights in neural networks) using labeled datasets to reduce misclassification."
+2,Discuss the basic components of the learning process in machine learning,"Data Storage: Systems like distributed file systems manage vast amounts of training and testing data.
+Abstraction: Uses mathematical modeling (e.g., clustering, regression) to find patterns.
+Generalization: Employs techniques like regularization to improve performance on unseen data.
+Evaluation: Metrics like accuracy, F1-score, and ROC curves quantitatively validate models."
+3,"Differentiate between supervised, unsupervised, and reinforcement learning with examples","Supervised: Utilizes labeled datasets to approximate a function. Example: Support Vector Machines for binary classification.
+Unsupervised: Seeks hidden structures in unlabeled data. Example: Principal Component Analysis for dimensionality reduction.
+Reinforcement: Solves Markov Decision Processes by learning optimal policies. Example: Training an AI agent to play chess."
+4,"What is feature selection, and why is it important in machine learning?","Feature selection reduces model complexity and overfitting by identifying relevant features. For instance, in high-dimensional data, removing redundant features prevents the curse of dimensionality."
+5,"Explain the differences between filter, wrapper, and embedded methods of feature selection.","Filter: Uses statistical properties (e.g., mutual information, chi-square). Fast but model-agnostic.
+Wrapper: Evaluates feature subsets using model performance metrics. Computationally expensive but precise.
+Embedded: Incorporates feature selection in training (e.g., L1 regularization in Lasso)."
+6,What are the advantages and disadvantages of dimensionality reduction?,"Advantages: Reduces computational cost, enhances visualization, and mitigates overfitting.
+Disadvantages: Linear methods like PCA fail on non-linear datasets without transformations like kernel PCA."
+7,Explain Principal Component Analysis (PCA) with its computational steps.,"PCA transforms correlated variables into orthogonal components:
+Compute the covariance matrix.
+Derive eigenvalues and eigenvectors.
+Retain components corresponding to the largest eigenvalues."
+8,Explain the cost function and its role in regression models.,"The cost function quantifies the error between predictions and actual values. Minimizing the function (e.g., using gradient descent) improves model fit."
+9,What is gradient descent? Describe its different types.,"Gradient descent adjusts parameters 
+Types:
+Batch: Updates after processing all data.
+Stochastic: Updates after one data point.
+Mini-batch: Balances between the two."
+10,"Compare Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Square Error (RMSE).","MAE:  Robust to outliers.
+MSE: Penalizes large errors more.
+RMSE: Square root of MSE for interpretability."
+11,Explain the biological inspiration behind artificial neural networks.,"Neural networks emulate the brain's interconnected neurons, leveraging weights (synapses) and activation functions (neuronal firing thresholds)."
+12,"Describe the architecture of a basic artificial neural network, including its layers.","Input Layer: Accepts feature vectors.
+Hidden Layers: Perform transformations using weights and biases.
+Output Layer: Produces predictions using activation functions."
+13,What are Convolutional Neural Networks (CNNs)?,"CNNs use convolution and pooling operations for spatial data, leveraging shared weights to extract features efficiently."
+14,Explain the concept of recurrent neural networks (RNNs).,
+15,"Compare the holdout method, K-fold, and stratified K-fold cross-validation.","Holdout: One-time split; prone to variance.
+K-Fold: Ensures robustness by training on K?1 folds.
+Stratified K-Fold: Maintains class balance across folds."
+16,Define the bias-variance tradeoff and its importance in machine learning.,"High bias causes underfitting, while high variance leads to overfitting. Models should balance these for generalization."
+17,"What is overfitting, and how can it be avoided?","Overfitting memorizes noise in training data. Mitigation strategies:
+Use regularization (L1L_1L1, L2L_2L2).
+Cross-validation.
+Pruning in decision trees."
+18,Explain the concept of bagging and boosting.,"Bagging (e.g., Random Forest): Reduces variance by training multiple models on different data subsets.
+Boosting (e.g., AdaBoost): Sequentially corrects errors of weak learners."
+19,Discuss the K-means clustering algorithm and its applications.,"K-means groups data into Kclusters by minimizing intra-cluster distances. Applications: Customer segmentation, Image compression."
+20,Explain the Q-learning algorithm with its key concepts.,"Q-learning is a reinforcement learning method where an agent learns an optimal policy by updating Q-values, which estimate the expected rewards for actions in given states."
+,,
